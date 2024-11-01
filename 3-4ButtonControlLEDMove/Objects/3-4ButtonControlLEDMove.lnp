@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\3-4ButtonControlLEDMove" 
+PRINT(".\Listings\3-4ButtonControlLEDMove.m51") RAMSIZE(256) 

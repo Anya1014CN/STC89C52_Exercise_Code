@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\4-1NixieDisplay" 
+PRINT(".\Listings\4-1NixieDisplay.m51") RAMSIZE(256) 
