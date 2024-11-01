@@ -33,6 +33,7 @@ void NixieDisplay(unsigned char Location,Number)
 	}
 	P0=NixieTable[Number];
 	Delay(50);
+	P0=0X00;
 }
 
 void main()

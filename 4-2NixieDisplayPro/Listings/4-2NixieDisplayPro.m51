@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    11/01/2024  19:31:27  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    11/01/2024  20:03:58  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
@@ -29,10 +29,10 @@ LINK MAP OF MODULE:  .\Objects\4-2NixieDisplayPro (MAIN)
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
             CODE    0000H     0003H     ABSOLUTE     
             CODE    0003H     008CH     UNIT         ?C_C51STARTUP
-            CODE    008FH     0069H     UNIT         ?PR?_NIXIEDISPLAY?MAIN
-            CODE    00F8H     0045H     UNIT         ?PR?MAIN?MAIN
-            CODE    013DH     0011H     UNIT         ?PR?_DELAY?MAIN
-            CODE    014EH     000DH     UNIT         ?C_INITSEG
+            CODE    008FH     006DH     UNIT         ?PR?_NIXIEDISPLAY?MAIN
+            CODE    00FCH     0045H     UNIT         ?PR?MAIN?MAIN
+            CODE    0141H     0011H     UNIT         ?PR?_DELAY?MAIN
+            CODE    0152H     000DH     UNIT         ?C_INITSEG
 
 
 
@@ -59,7 +59,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\4-2NixieDisplayPro (MAIN)
   VALUE           TYPE          NAME
   ----------------------------------
 
-BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  11/01/2024  19:31:27  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  11/01/2024  20:03:58  PAGE 2
 
 
   -------         MODULE        MAIN
@@ -68,22 +68,22 @@ SYMBOL TABLE OF MODULE:  .\Objects\4-2NixieDisplayPro (MAIN)
   B:00A0H.2       PUBLIC        P2_2
   B:00A0H.3       PUBLIC        P2_3
   B:00A0H.4       PUBLIC        P2_4
-  C:00F8H         PUBLIC        main
+  C:00FCH         PUBLIC        main
   C:008FH         PUBLIC        _NixieDisplay
   D:0008H         PUBLIC        NixieTable
-  C:013DH         PUBLIC        _Delay
+  C:0141H         PUBLIC        _Delay
   -------         PROC          _DELAY
   D:0006H         SYMBOL        xus
-  C:013DH         LINE#         4
-  C:013DH         LINE#         5
-  C:013DH         LINE#         6
-  C:0147H         LINE#         7
-  C:0147H         LINE#         8
-  C:0148H         LINE#         9
-  C:0149H         LINE#         10
-  C:014AH         LINE#         11
-  C:014BH         LINE#         12
-  C:014DH         LINE#         13
+  C:0141H         LINE#         4
+  C:0141H         LINE#         5
+  C:0141H         LINE#         6
+  C:014BH         LINE#         7
+  C:014BH         LINE#         8
+  C:014CH         LINE#         9
+  C:014DH         LINE#         10
+  C:014EH         LINE#         11
+  C:014FH         LINE#         12
+  C:0151H         LINE#         13
   -------         ENDPROC       _DELAY
   -------         PROC          _NIXIEDISPLAY
   D:0007H         SYMBOL        Location
@@ -103,26 +103,28 @@ SYMBOL TABLE OF MODULE:  .\Objects\4-2NixieDisplayPro (MAIN)
   C:00EAH         LINE#         33
   C:00EAH         LINE#         34
   C:00F1H         LINE#         35
+  C:00F8H         LINE#         36
+  C:00FBH         LINE#         37
   -------         ENDPROC       _NIXIEDISPLAY
   -------         PROC          MAIN
-  C:00F8H         LINE#         38
-  C:00F8H         LINE#         39
-  C:00F8H         LINE#         40
-  C:00F8H         LINE#         41
-  C:00F8H         LINE#         42
-  C:0101H         LINE#         43
-  C:0109H         LINE#         44
-  C:0112H         LINE#         45
-  C:011BH         LINE#         46
-  C:0124H         LINE#         47
-  C:012BH         LINE#         48
-  C:0133H         LINE#         49
-  C:013BH         LINE#         50
+  C:00FCH         LINE#         39
+  C:00FCH         LINE#         40
+  C:00FCH         LINE#         41
+  C:00FCH         LINE#         42
+  C:00FCH         LINE#         43
+  C:0105H         LINE#         44
+  C:010DH         LINE#         45
+  C:0116H         LINE#         46
+  C:011FH         LINE#         47
+  C:0128H         LINE#         48
+  C:012FH         LINE#         49
+  C:0137H         LINE#         50
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  11/01/2024  20:03:58  PAGE 3
+
+
+  C:013FH         LINE#         51
   -------         ENDPROC       MAIN
-BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  11/01/2024  19:31:27  PAGE 3
-
-
   -------         ENDMOD        MAIN
 
-Program Size: data=19.0 xdata=0 code=347
+Program Size: data=19.0 xdata=0 code=351
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
