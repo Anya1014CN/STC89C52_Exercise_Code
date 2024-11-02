@@ -1,0 +1,5 @@
+".\Objects\main.obj",
+".\Objects\lcd1602.obj",
+".\Objects\Delay.obj" 
+TO ".\Objects\5-2LCD1602Debugger" 
+PRINT(".\Listings\5-2LCD1602Debugger.m51") RAMSIZE(256) 
