@@ -1,0 +1,5 @@
+".\Objects\main.obj",
+".\Objects\Delay.obj",
+".\Objects\NixieDisplay.obj" 
+TO ".\Objects\5-1ModularProgramming" 
+PRINT(".\Listings\5-1ModularProgramming.m51") RAMSIZE(256) 
